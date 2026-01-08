@@ -1,0 +1,25 @@
+{
+  "name": "openwhisper",
+  "version": "1.0.0",
+  "description": "Windows 11 style audio recording and transcription app using Neutralinojs",
+  "main": "index.html",
+  "scripts": {
+    "neu:create": "neu create . --template neutralinojs/neutralinojs-pure-html",
+    "neu:run": "neu run",
+    "neu:build": "neu build",
+    "neu:package": "neu package"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@neutralinojs/neu": "^11.6.0"
+  },
+  "keywords": [
+    "audio",
+    "recording",
+    "transcription",
+    "whisper",
+    "neutralinojs"
+  ],
+  "author": "",
+  "license": "MIT"
+}

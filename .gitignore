@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Neutralinojs artifacts
+dist/
+.neu/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache directories
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Build outputs
+build/
+*.build/

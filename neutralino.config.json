@@ -1,0 +1,74 @@
+{
+  "applicationId": "com.openwhisper.app",
+  "version": "1.0.0",
+  "name": "OpenWhisper",
+  "defaultWindow": {
+    "title": "Windows 11 Audio Suite",
+    "width": 400,
+    "height": 80,
+    "resizable": false,
+    "alwaysOnTop": true,
+    "icon": "",
+    "borderless": false,
+    "maximize": false,
+    "fullscreen": false,
+    "minWidth": 400,
+    "minHeight": 80,
+    "exitProcessOnClose": true
+  },
+  "nativeBlockList": [],
+  "webBrowserBlockList": [],
+  "enableServer": true,
+  "host": "127.0.0.1",
+  "port": 0,
+  "enableNativeUDR": false,
+  "logging": {
+    "enabled": false,
+    "writeToLogFile": false
+  },
+  "nativeExtensions": {},
+  "permissions": {
+    "app.*": {
+      "allowed": true
+    },
+    "os.*": {
+      "allowed": true
+    },
+    "filesystem.*": {
+      "allowed": true
+    },
+    "window.*": {
+      "allowed": true
+    },
+    "debug.*": {
+      "allowed": false
+    },
+    "computer.*": {
+      "allowed": true
+    },
+    "clipboard.*": {
+      "allowed": true
+    },
+    "shell.*": {
+      "allowed": true
+    },
+    "notification.*": {
+      "allowed": false
+    },
+    "store.*": {
+      "allowed": false
+    },
+    "events.*": {
+      "allowed": false
+    },
+    "modes.*": {
+      "allowed": false
+    },
+    "ext.*": {
+      "allowed": false
+    }
+  },
+  "cli": {
+    "resourcesPath": "."
+  }
+}

@@ -1,6 +1,6 @@
 {
   "applicationId": "com.openwhisper.app",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "name": "OpenWhisper",
   "defaultWindow": {
     "title": "Windows 11 Audio Suite",
@@ -9,7 +9,7 @@
     "resizable": false,
     "alwaysOnTop": true,
     "icon": "",
-    "borderless": false,
+    "borderless": true,
     "maximize": false,
     "fullscreen": false,
     "minWidth": 400,
@@ -69,7 +69,7 @@
     }
   },
   "cli": {
-    "resourcesPath": ".",
+    "resourcesPath": "/resources",
     "binaryVersion": "6.4.0"
   }
 }

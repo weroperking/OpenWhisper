@@ -17,7 +17,9 @@
     "exitProcessOnClose": true
   },
   "nativeBlockList": [],
-  "nativeAllowList": ["window.*"],
+  "nativeAllowList": [
+    "window.*"
+  ],
   "webBrowserBlockList": [],
   "enableServer": true,
   "host": "127.0.0.1",
@@ -70,7 +72,7 @@
     }
   },
   "cli": {
-    "resourcesPath": "/resources",
+    "resourcesPath": "./resources/",
     "binaryVersion": "6.4.0"
   }
 }
